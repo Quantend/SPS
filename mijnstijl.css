@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url(background.jpg);
+    background-size: cover;
+  }
+  
+  h1, h2 {
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #computer, #human, #result {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  #winCounter, #gelijkCounter, #verliesCounter {
+    font-weight: bold;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  button:active {
+    background-color: #3e8e41;
+  }
+  
+  

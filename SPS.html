@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Steen, Papier, Schaar</title>
+  <link rel="stylesheet" type="text/css" href="mijnstijl.css">
+  <audio id="winAudio" src="win.mp3"></audio>
+  <audio id="verliesAudio" src="verlies.mp3"></audio>
+  <audio id="gelijkAudio" src="gelijk.mp3"></audio>
+  <audio id="resetAudio" src="boom.mp3"></audio>
+</head>
+<body>
+    <h1>
+        Maak je keuze: <br>
+        <button onclick="playGame('steen')">Steen</button>
+        <button onclick="playGame('papier')">Papier</button>
+        <button onclick="playGame('schaar')">Schaar</button> <br>
+        <span id="computer"> </span>
+        <span id="human"> </span>
+        <span id="result"> </span>
+    </h1>
+
+    <h2>
+        Gewonnen: <span id="winCounter">0</span> | 
+        Gelijk: <span id="gelijkCounter">0</span> | 
+        Verloren: <span id="verliesCounter">0</span>
+    </h2>
+
+
+<script src="script.js"></script>
+
+    <button onclick="resetCounters()">Reset</button>
+
+
+</body>
+</html>
